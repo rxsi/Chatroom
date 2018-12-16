@@ -1,0 +1,20 @@
+
+%%%-------------------------------------------------------------------
+%%% @author Administrator
+%%% @copyright (C) 2018, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 27. 十一月 2018 9:19
+%%%-------------------------------------------------------------------
+{application, 'Chat', [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {'Chat', []}},
+  {env, []}
+]}.
